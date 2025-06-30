@@ -1,0 +1,27 @@
+
+:root {
+  --primary: #79824b;
+  --light: #f6f9f0;
+}
+
+body {
+  background-color: var(--light);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h2 {
+  color: var(--primary);
+}
+
+.navbar {
+  background-color: var(--primary);
+}
+
+.navbar-brand, .nav-link {
+  color: white !important;
+}
+
+footer {
+  background-color: var(--primary);
+  color: white;
+}
